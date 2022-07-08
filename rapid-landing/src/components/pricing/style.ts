@@ -10,7 +10,7 @@ export const PricingContainerMain = styled.div`
 export const PricingContainer = styled.div`
   margin: auto;
   text-align: center;
-  border: 1px solid red;
+  border: 1px solid transparent;
   max-width: 1180px;
   width: 100%;
 `;

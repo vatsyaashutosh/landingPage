@@ -17,7 +17,9 @@ export const NavbarContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 50px 0 0 0;
-  padding-left: 210px;
+  max-width: 1180px;
+  width: 100%;
+  margin: auto;
 `;
 
 export const LogoContainer = styled.img`
@@ -30,7 +32,7 @@ export const NavMidDiv = styled(NavbarContainer)`
   border: none;
   max-width: 352px;
   margin-left: 0;
-  margin-right: 314px;
+  /* margin-right: 314px; */
   padding: 0;
 `;
 
@@ -38,8 +40,9 @@ export const NavLastDiv = styled(NavbarContainer)`
   width: 100%;
   max-width: 250px;
   padding: 0;
-  padding-right: 200px;
+  /* padding-right: 200px; */
   margin-left: 0;
+  margin-right: 0;
 
   border: none;
 `;

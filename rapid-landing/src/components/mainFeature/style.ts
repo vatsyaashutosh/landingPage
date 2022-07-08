@@ -13,6 +13,10 @@ export const MainFeatureHeading = styled.h1`
   line-height: 47px;
   text-align: center;
   color: #172755;
+  margin-top: 300px;
+  @media screen and (min-width: 1180px) {
+    margin-top: 0;
+  }
 `;
 export const MainFeautureText = styled.p`
   padding: 0;
@@ -63,11 +67,22 @@ export const MainFeatureCardImage = styled.img`
 
 export const MiddleCardContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+  justify-items: center;
+  & > div:nth-child(4) {
+    grid-row: 3/4;
+  }
   column-gap: 100px;
+  @media screen and (min-width: 1180px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
   row-gap: 120px;
 `;
-export const MiddleCard = styled.div``;
+export const MiddleCard = styled.div`
+  /* @media screen and (max-width: 1180px) {
+    grid-row: 4/5;
+  } */
+`;
 
 export const MiddleCardHeading = styled.h1`
   font-family: "Roboto";
@@ -90,4 +105,7 @@ export const MiddleCardParargraph = styled.p`
 export const MiddleCardImage = styled.img`
   width: 600px;
   height: 410px;
+
+  @media screen and (min-width: 1180px) {
+  }
 `;

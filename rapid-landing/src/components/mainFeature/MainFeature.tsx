@@ -72,8 +72,12 @@ const MainFeature = () => {
             pulvinar risus pulvinar sit amet.
           </MiddleCardParargraph>
         </MiddleCard>
-        <MiddleCardImage src={Screen1} />
-        <MiddleCardImage src={Screen2} />
+        <MiddleCard>
+          <MiddleCardImage src={Screen1} />
+        </MiddleCard>
+        <MiddleCard>
+          <MiddleCardImage src={Screen2} />
+        </MiddleCard>
 
         <MiddleCard>
           <MiddleCardHeading>
@@ -96,7 +100,9 @@ const MainFeature = () => {
             pulvinar risus pulvinar sit amet.
           </MiddleCardParargraph>
         </MiddleCard>
-        <MiddleCardImage src={Screen3} />
+        <MiddleCard>
+          <MiddleCardImage src={Screen3} />
+        </MiddleCard>
       </MiddleCardContainer>
     </MainFeatureContainer>
   );

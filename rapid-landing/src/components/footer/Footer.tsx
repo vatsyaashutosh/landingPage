@@ -2,7 +2,8 @@ import {
   FacebookIcon,
   FooterContainer,
   FooterElements,
-  FooterSubContainer,
+  FooterSubContainer1,
+  FooterSubContainer2,
   InstaIcon,
   LogoIcon,
   TwitterIcon,
@@ -15,17 +16,17 @@ const Footer = () => {
   return (
     <FooterContainer>
       <LogoIcon src={Logo}></LogoIcon>
-      <FooterSubContainer>
+      <FooterSubContainer1>
         <FooterElements>Product</FooterElements>
         <FooterElements>Pricing Plans</FooterElements>
         <FooterElements>FAQ</FooterElements>
         <FooterElements>Blog</FooterElements>
-      </FooterSubContainer>
-      <FooterSubContainer>
+      </FooterSubContainer1>
+      <FooterSubContainer2>
         <FacebookIcon src={Facebook} />
         <TwitterIcon src={Twitter} />
         <InstaIcon src={Instagram} />
-      </FooterSubContainer>
+      </FooterSubContainer2>
     </FooterContainer>
   );
 };
